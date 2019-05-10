@@ -1,0 +1,90 @@
+fastlane_version '2.53.1'
+
+platform :ios do
+  before_all do
+    version_number = get_version_number(xcodeproj: "./ios/qwallet.xcodeproj", target: "QWallet")
+    build_number = get_build_number(xcodeproj: "./ios/qwallet.xcodeproj")
+    ENV["VERSION_NUMBER"] = version_number + "." + build_number
+  end
+
+  desc 'Slack notification for succesful build to TestFlight'
+  lane :slack_testflight do
+    slack(
+      message: "A new build has been uploaded to TestFlight!",
+      success: true,
+      slack_url: "https://hooks.slack.com/services/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
+",
+      attachment_properties: {
+        fields: [
+          {
+             title: "Version number",
+             value: ENV["VERSION_NUMBER"],
+          },
+        ]
+      }
+    )
+  end
+
+  desc 'Fetch certificates and provisioning profiles'
+    lane :certificates do
+      match(app_identifier: 'io.qpay.qwallet', type: 'development', readonly: true)
+      match(app_identifier: 'io.qpay.qwallet', type: 'appstore', readonly: true)
+    end
+
+  desc 'Build the iOS application.'
+    private_lane :build do
+      certificates
+      increment_build_number(xcodeproj: "./ios/qwallet.xcodeproj")
+      gym(scheme: 'QWallet', project: './ios/qwallet.xcodeproj')
+    end
+
+  desc 'Ship to Testflight.'
+    lane :beta do
+      build
+      pilot(username: tanvirtex@gmail.com)
+      slack_testflight
+    end
+end
+
+platform :android do
+  desc 'Slack notification for succesful build to Playstore'
+  lane :slack_playstore do
+    slack(
+      message: "A new build has been uploaded to the PlayStore",
+      success: true,
+      slack_url:"https://hooks.slack.com/services/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",
+      attachment_properties: {
+        fields: [
+          {
+             title: "Build number",
+             value: ENV["BUILD_NUMBER"],
+          },
+        ]
+      }
+    )
+  end
+
+ desc 'Build the Android application.'
+  private_lane :build do
+    gradle(task: 'clean', project_dir: 'android/')
+    gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/')
+  end
+
+  desc 'Ship to Playstore Beta.'
+  lane :beta do
+    build
+    supply(track: 'alpha', track_promote_to: 'beta')
+#    git_commit(path: ['./android/gradle.properties'], message: 'Bump versionCode')
+#    push_to_git_remote
+    slack_playstore
+  end
+
+  desc 'Ship to Playstore Beta.'
+  lane :alpha do
+    build
+    supply(track: 'alpha')
+    # git_commit(path: ['./android/gradle.properties'], message: 'Bump versionCode')
+    # push_to_git_remote
+    slack_playstore
+  end
+end
