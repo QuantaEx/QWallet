@@ -52,7 +52,7 @@ const navigator = StackNavigator({
 }, {
   headerMode: 'none',
   navigationOptions: {
-    backgroundColor: '#fafbfe',
+    backgroundColor: '#151928',
     borderBottomWidth: 0,
     gesturesEnabled: false,
   },
