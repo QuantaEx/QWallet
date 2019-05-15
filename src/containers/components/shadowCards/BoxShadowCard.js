@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   ChildContainerStyles: {
-    backgroundColor: 'white',
+    backgroundColor: '#151928',
     flex: 1,
     borderRadius: 20,
     margin: '1%',
