@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "747448958554",
+    "firebase_url": "https://qwallet-first.firebaseio.com",
+    "project_id": "qwallet-first",
+    "storage_bucket": "qwallet-first.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747448958554:android:6b7d0ef2e1836c82",
+        "android_client_info": {
+          "package_name": "com.qpay.qwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747448958554-v1unb36sb0s8j8goqk6eibto9bj9nt71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qpay.qwallet",
+            "certificate_hash": "1389ef59602a6ab00096bce9fd24f9b5a83fa50c"
+          }
+        },
+        {
+          "client_id": "747448958554-p47ktljidla8116fq3mel410p1e03con.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXCjxus4M09RWOwkkf5iAIKQ5CGWzM2IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747448958554-p47ktljidla8116fq3mel410p1e03con.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

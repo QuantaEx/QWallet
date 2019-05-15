@@ -61,6 +61,6 @@ fastlane/screenshots
 # Bundle artifact
 *.jsbundle
 
-Qwallet.app.dSYM.zip
+WeiPay.app.dSYM.zip
 
 ./fastlane/playstore-api-key.json

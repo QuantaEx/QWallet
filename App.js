@@ -1,12 +1,17 @@
-import 'react-native';
-import React from 'react';
-import App from '../App';
+import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from './src/containers/store/store';
+import AppNavigation from './src/containers/navigation/stack';
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
-
-it('renders correctly', () => {
-  const tree = renderer.create(
-    <App />
-  );
-});
+export default class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <AppNavigation />
+        </PersistGate>
+      </Provider>
+    );
+  }
+}
