@@ -15,13 +15,13 @@ Information like balances, transactions and other Ethereum related information a
 
 Etherscan
 
-QWallet is interacting with Etherscan - you can find their policy here: https://etherscan.io/terms
+Qwallet is interacting with Etherscan - you can find their policy here: https://etherscan.io/terms
 
 
 Privacy Policy for the use of Google Firebase
 =============================================
 
-On Google Play QWallet is using Firebase.
+On Google Play Qwallet is using Firebase.
 See their policy here: https://www.firebase.com/terms/privacy-policy.html 
 If you do not want to use Firebase  
 
