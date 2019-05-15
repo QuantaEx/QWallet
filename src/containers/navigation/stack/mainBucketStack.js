@@ -26,7 +26,7 @@ const CustomDrawerContentComponent = props => {
 		<View>
 			<DrawerItems
 				{...props}
-				activeBackgroundColor={'#f3f3f3'}
+				activeBackgroundColor={'#151928'}
 				labelStyle={styles.labelText}
 			/>
 		</View>
@@ -52,7 +52,7 @@ const navigator = DrawerNavigator({
 				initialRouteName: 'portfolioScreen',
 				headerMode: 'none',
 				navigationOptions: {
-					backgroundColor: '#fafbfe',
+					backgroundColor: '#151928',
 					borderBottomWidth: 0,
 					gesturesEnabled: false,
 				},
@@ -84,13 +84,13 @@ export default navigator;
 const styles = StyleSheet.create({
 	customContainer: {
 		flex: 1,
-		backgroundColor: 'white',
+		backgroundColor: '#151928',
 		marginTop: getStatusBarHeight(),
 	},
 	labelText: {
 		fontSize: 16,
 		letterSpacing: 0.6,
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto',
 		color: 'black',
 		fontWeight: '200',
 	},
