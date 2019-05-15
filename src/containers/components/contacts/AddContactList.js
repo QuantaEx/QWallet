@@ -46,7 +46,7 @@ class AddContactList extends Component {
    */
   listItem(token) {
     return (
-      <ListItem title='Enter Address' textInput={true} />
+      <ListItem title='Please Contract Enter Address' textInput={true} />
     )
   }
 
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
   qrButton: {
     width: 50,
     height: 50,
-    backgroundColor: "yellow"
+    backgroundColor: "orange"
   },
   addressInput: {
     width: 150,
