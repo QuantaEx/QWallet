@@ -46,7 +46,7 @@ class AddContactList extends Component {
    */
   listItem(token) {
     return (
-      <ListItem title='Please Contract Enter Address' textInput={true} />
+      <ListItem title='Please Enter Contract Address' textInput={true} />
     )
   }
 
