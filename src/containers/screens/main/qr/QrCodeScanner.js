@@ -89,7 +89,7 @@ class QrCodeScanner extends Component {
                   <Text style={styles.msgText}>Will Navigate back to the original screen when QR is scanned.</Text>
                   <View style={styles.footerGrandparentContainer}>
                       <View style={styles.footerParentContainer} >
-                          <Text style={styles.textFooter} >Powered by ChainSafe </Text>
+                          <Text style={styles.textFooter} >Powered By QPay </Text>
                       </View>
                   </View>
                 </View>

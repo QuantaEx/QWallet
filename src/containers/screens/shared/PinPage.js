@@ -258,7 +258,7 @@ class PinPage extends Component {
 						<View style={styles.btnContainer}>
 							<View style={styles.footerGrandparentContainer} >
 								<View style={styles.footerParentContainer} >
-									<Text style={styles.textFooter} >Powered by ChainSafe </Text>
+									<Text style={styles.textFooter} >Powered By QPay </Text>
 								</View>
 							</View>
 						</View>
