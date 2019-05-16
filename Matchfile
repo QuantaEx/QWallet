@@ -1,8 +1,8 @@
-git_url("git@github.com:ChainSafe/wei-pay-certs.git")
+git_url("git@github.com:QuantaPay/QWallet.git")
 
 type("appstore") # The default type, can be: appstore, adhoc, enterprise or development
 
-app_identifier("io.chainsafe.weipay")
+app_identifier("io.qpay.qwallet")
 username("superadmin@chainsafe.io") # Your Apple Developer Portal username
 
 # For all available options run `fastlane match --help`
