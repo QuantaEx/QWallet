@@ -9,6 +9,7 @@ import BackWithMenuNav from '../../../../components/customPageNavs/BackWithMenuN
 import BoxShadowCard from '../../../../components/shadowCards/BoxShadowCard';
 import ClearButton from '../../../../components/linearGradient/ClearButton';
 import { setNetwork } from '../../../../store/actions/creators/AppConfig';
+import config from '../../../../../constants/config';
 
 const ethers = require('ethers');
 
@@ -90,11 +91,11 @@ class Network extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   mainContainer: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
     justifyContent: 'center',
     width: '100%',
   },
@@ -106,11 +107,11 @@ const styles = StyleSheet.create({
     flex: 5,
   },
   textHeader: {
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     fontSize: RF(4),
     letterSpacing: 0.8,
     paddingLeft: '9%',
-    color: '#1a1f3e',
+    color: config.color.logoText,
     flex: 0.75,
   },
   contentContainer: {

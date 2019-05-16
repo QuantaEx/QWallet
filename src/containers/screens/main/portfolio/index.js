@@ -17,6 +17,7 @@ import processAllTokenBalances from '../../../../scripts/tokens/tokenBalances';
 import BackWithMenuNav from '../../../components/customPageNavs/BackWithMenuNav';
 import BoxShadowCard from '../../../components/shadowCards/BoxShadowCard';
 import getNetworkProvider from '../../../../constants/Providers';
+import config from '../../../../constants/config';
 
 /**
  * Screen is used to display the wallet portfolio of the user, which contains the
@@ -354,13 +355,13 @@ const styles = StyleSheet.create({
 	},
 	mainTitleText: {
 		fontSize: RF(2.6),
-		fontFamily: 'Cairo-Regular',
+		fontFamily: 'Roboto-Regular',
 		letterSpacing: 0.5,
 		color: 'black',
 	},
 	subTitleText: {
 		fontSize: RF(2),
-		fontFamily: 'Cairo-Regular',
+		fontFamily: 'Roboto-Regular',
 		letterSpacing: 0.5,
 	},
 	listItemFiatValue: {
@@ -373,18 +374,18 @@ const styles = StyleSheet.create({
 	listItemCryptoValue: {
 		alignItems: 'flex-end',
 		fontSize: RF(2),
-		fontFamily: 'Cairo-Regular',
+		fontFamily: 'Roboto-Regular',
 		letterSpacing: 0.5,
 		color: 'black',
 		paddingRight: '1.75%',
 	},
 	safeAreaView: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 	},
 	mainContainer: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 		width: '100%',
 	},
 	navBar: {
@@ -392,10 +393,10 @@ const styles = StyleSheet.create({
 		paddingBottom: '2%',
 	},
 	textHeader: {
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		fontSize: RF(4),
 		paddingLeft: '9%',
-		color: '#1a1f3e',
+		color: config.color.logoText,
 		flex: 0.75,
 		letterSpacing: 0.8,
 		justifyContent: 'center',

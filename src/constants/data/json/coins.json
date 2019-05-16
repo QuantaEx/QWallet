@@ -1,219 +1,290 @@
 [
-  {
-    "id": 0,
-    "type": "PortfolioCoin",
-    "selected": true,
-    "symbol": "ETH",
-    "address": "",
-    "decimals": 18,
-    "name": "Ethereum",
-    "ens_address": "",
-    "website": "",
-    "logo": {
-      "src": "https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_bigger.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
+    {
+        "id": 0,
+        "type": "PortfolioCoin",
+        "selected": true,
+        "symbol": "ETH",
+        "address": "",
+        "decimals": 18,
+        "name": "Ethereum",
+        "ens_address": "",
+        "website": "",
+        "logo": {
+            "src": "https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_bigger.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "",
+            "url": ""
+        },
+        "social": {
+            "blog": "",
+            "chat": "",
+            "facebook": "",
+            "forum": "",
+            "github": "",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "",
+            "slack": "",
+            "telegram": "",
+            "twitter": "",
+            "youtube": ""
+        }
     },
-    "support": {
-      "email": "",
-      "url": ""
+    {
+        "id": 1,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "ANT",
+        "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+        "decimals": 18,
+        "name": "ANT",
+        "ens_address": "",
+        "website": "https://aragon.one/network",
+        "logo": {
+            "src": "https://etherscan.io/token/images/aragon_28.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "",
+            "url": ""
+        },
+        "social": {
+            "blog": "",
+            "chat": "",
+            "facebook": "",
+            "forum": "",
+            "github": "",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "",
+            "slack": "",
+            "telegram": "",
+            "twitter": "",
+            "youtube": ""
+        }
     },
-    "social": {
-      "blog": "",
-      "chat": "",
-      "facebook": "",
-      "forum": "",
-      "github": "",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "",
-      "reddit": "",
-      "slack": "",
-      "telegram": "",
-      "twitter": "",
-      "youtube": ""
+    {
+        "id": 2,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "OMG",
+        "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+        "decimals": 18,
+        "name": "OMG",
+        "ens_address": "",
+        "website": "https://omisego.network",
+        "logo": {
+            "src": "https://etherscan.io/token/images/omise.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "",
+            "url": ""
+        },
+        "social": {
+            "blog": "",
+            "chat": "",
+            "facebook": "",
+            "forum": "",
+            "github": "https://github.com/omisego",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "",
+            "slack": "",
+            "telegram": "",
+            "twitter": "",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 3,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "ZRX",
+        "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+        "decimals": 18,
+        "name": "0x Project",
+        "ens_address": "",
+        "website": "https://0xproject.com",
+        "logo": {
+            "src": "https://etherscan.io/token/images/0xtoken_28.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "",
+            "url": ""
+        },
+        "social": {
+            "blog": "",
+            "chat": "",
+            "facebook": "",
+            "forum": "",
+            "github": "https://github.com/0xProject",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "",
+            "slack": "",
+            "telegram": "",
+            "twitter": "",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 4,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "MKR",
+        "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "decimals": 18,
+        "name": "MakerDAO",
+        "ens_address": "",
+        "website": "https://makerdao.com",
+        "logo": {
+            "src": "https://etherscan.io/token/images/mkr-etherscan-35.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "support@makerdao.com",
+            "url": "https://chat.makerdao.com"
+        },
+        "social": {
+            "blog": "",
+            "chat": "https://chat.makerdao.com",
+            "facebook": "",
+            "forum": "",
+            "github": "https://github.com/makerdao",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "https://reddit.com/r/makerdao",
+            "slack": "",
+            "telegram": "",
+            "twitter": "https://twitter.com/MakerDAO",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 5,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "GNT",
+        "address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+        "decimals": 18,
+        "name": "Golem",
+        "ens_address": "",
+        "website": "https://golem.network",
+        "logo": {
+            "src": "https://etherscan.io/token/images/golem.PNG",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "",
+            "url": ""
+        },
+        "social": {
+            "blog": "",
+            "chat": "",
+            "facebook": "",
+            "forum": "",
+            "github": "",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "",
+            "slack": "https://golemproject.org:3000",
+            "telegram": "",
+            "twitter": "",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 6,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "SNT",
+        "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
+        "decimals": 18,
+        "name": "Status Network Token",
+        "ens_address": "",
+        "website": "https://status.im",
+        "logo": {
+            "src": "https://etherscan.io/token/images/status.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "",
+            "url": ""
+        },
+        "social": {
+            "blog": "",
+            "chat": "",
+            "facebook": "",
+            "forum": "",
+            "github": "",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "",
+            "slack": "",
+            "telegram": "",
+            "twitter": "",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 7,
+        "type": "ERC20",
+        "selected": true,
+        "symbol": "DAI",
+        "address": "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359",
+        "decimals": 18,
+        "name": "Dai Stablecoin v1.0",
+        "ens_address": "",
+        "website": "https://makerdao.com",
+        "logo": {
+            "src": "https://etherscan.io/token/images/dai_stablecoin.png",
+            "width": "",
+            "height": "",
+            "ipfs_hash": ""
+        },
+        "support": {
+            "email": "support@makerdao.com",
+            "url": "https://chat.makerdao.com"
+        },
+        "social": {
+            "blog": "",
+            "chat": "https://chat.makerdao.com",
+            "facebook": "",
+            "forum": "",
+            "github": "https://github.com/makerdao",
+            "gitter": "",
+            "instagram": "",
+            "linkedin": "",
+            "reddit": "https://www.reddit.com/r/MakerDAO",
+            "slack": "",
+            "telegram": "",
+            "twitter": "https://twitter.com/MakerDAO",
+            "youtube": ""
+        }
     }
-  },
-   {
-    "id": 1,
-    "type": "ERC20",
-    "selected": true,
-    "symbol": "QPY",
-    "address": "0x6911270d4bc1915744aedd785d41d44f47245bd0",
-    "decimals": 18,
-    "name": "QPay",
-    "ens_address": "",
-    "website": "https://qpay.group",
-    "logo": {
-      "src": "https://etherscan.io/token/images/qpaytoken2_28.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
-    },
-    "support": {
-      "email": "info@qpay.group",
-      "url": ""
-    },
-    "social": {
-      "blog": "https://medium.com/qpay/",
-      "chat": "https://t.me/qpayglobal",
-      "facebook": "",
-      "forum": "",
-      "github": "https://github.com/QuantaPay",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "https://www.linkedin.com/company/qpayglobal",
-      "reddit": "https://www.reddit.com/r/QPayglobal/",
-      "slack": "",
-      "telegram": "https://t.me/qpayglobal",
-      "twitter": "https://twitter.com/QPaygroup",
-      "youtube": ""
-    }
-  },
-  {
-    "id": 2,
-    "type": "ERC20",
-    "selected": true,
-    "symbol": "NDX",
-    "address": "0x1966d718a565566e8e202792658d7b5ff4ece469",
-    "decimals": 18,
-    "name": "nDEX",
-    "ens_address": "ndexnetwork.eth",
-    "website": "https://ndexnetwork.com.com",
-    "logo": {
-      "src": "https://etherscan.io/token/images/ndx_28.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
-    },
-    "support": {
-      "email": "support@ndexnetwork.com",
-      "url": ""
-    },
-    "social": {
-      "blog": "https://medium.com/ndexmedia",
-      "chat": "https://t.me/ndexofficial",
-      "facebook": "https://www.facebook.com/ndexnetwork",
-      "forum": "https://bitcointalk.org/index.php?topic=4479873",
-      "github": "https://github.com/ndexnetwork",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "https://www.linkedin.com/company/ndex-network/",
-      "reddit": "https://www.reddit.com/user/nDEXofficial/",
-      "slack": "",
-      "telegram": "https://t.me/ndexofficialchannel",
-      "twitter": "https://twitter.com/NdexOfficial",
-      "youtube": "https://youtube.com/channel/UCDcZiqk1qiCKfKRTUis7YTw"
-    }
-  },
-  {
-    "id": 3,
-    "type": "ERC20",
-    "selected": true,
-    "symbol": "NDT",
-    "address": "0x479eccecde65e3350d4b2305e42026f6dbae4a18",
-    "decimals": 18,
-    "name": "nDEX Network Token",
-    "ens_address": "",
-    "website": "https://ndexnetwork.com/ndt.html",
-    "logo": {
-      "src": "https://etherscan.io/token/images/ndex-ndt_28.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
-    },
-     "support": {
-      "email": "support@ndexnetwork.com",
-      "url": ""
-    },
-    "social": {
-      "blog": "https://medium.com/ndexmedia",
-      "chat": "https://t.me/ndexofficial",
-      "facebook": "https://www.facebook.com/ndexnetwork",
-      "forum": "https://bitcointalk.org/index.php?topic=4479873",
-      "github": "https://github.com/ndexnetwork",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "https://www.linkedin.com/company/ndex-network/",
-      "reddit": "https://www.reddit.com/user/nDEXofficial/",
-      "slack": "",
-      "telegram": "https://t.me/ndexofficialchannel",
-      "twitter": "https://twitter.com/NdexOfficial",
-      "youtube": "https://youtube.com/channel/UCDcZiqk1qiCKfKRTUis7YTw"
-    }
-  },
-  {
-    "id": 4,
-    "type": "ERC20",
-    "selected": true,
-    "symbol": "ANT",
-    "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
-    "decimals": 18,
-    "name": "ANT",
-    "ens_address": "",
-    "website": "https://aragon.one/network",
-    "logo": {
-      "src": "https://etherscan.io/token/images/aragon_28.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
-    },
-    "support": {
-      "email": "",
-      "url": ""
-    },
-    "social": {
-      "blog": "",
-      "chat": "",
-      "facebook": "",
-      "forum": "",
-      "github": "",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "",
-      "reddit": "",
-      "slack": "",
-      "telegram": "",
-      "twitter": "",
-      "youtube": ""
-    }
-  },
-  {
-    "id": 5,
-    "type": "ERC20",
-    "selected": true,
-    "symbol": "TUSD",
-    "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
-    "decimals": 18,
-    "name": "TrueUSD",
-    "ens_address": "",
-    "website": "https://www.trusttoken.com/trueusd/",
-    "logo": {
-      "src": "https://etherscan.io/token/images/trueusdtoken_28.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
-    },
-    "support": {
-      "email": "",
-      "url": ""
-    },
-    "social": {
-      "blog": "",
-      "chat": "",
-      "facebook": "",
-      "forum": "",
-      "github": "",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "",
-      "reddit": "",
-      "slack": "",
-      "telegram": "",
-      "twitter": "",
-      "youtube": ""
-    }
-   
-  }
 ]

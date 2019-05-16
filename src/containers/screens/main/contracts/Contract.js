@@ -20,6 +20,7 @@ import getNetworkProvider from '../../../../constants/Providers';
 // import ContractInputContainer from '../../../components/contracts/ContractInputContainer';
 // import ContractInputConstant from '../../../components/contracts/ContractInputConstant';
 import { setNetwork } from '../../../store/actions/creators/AppConfig';
+import config from '../../../../constants/config';
 
 /**
  * Screen is used to display the passphrase (mnemonic) of the wallet
@@ -306,11 +307,11 @@ class Contract extends Component {
 const styles = StyleSheet.create({
 	safeAreaView: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 	},
 	mainContainer: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 		justifyContent: 'center',
 		width: '100%',
 	},
@@ -324,20 +325,20 @@ const styles = StyleSheet.create({
 		paddingTop: '5%',
 	},
 	textHeader: {
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		fontSize: RF(4),
 		letterSpacing: 0.8,
 		paddingLeft: '9%',
-		color: '#1a1f3e',
+		color: config.color.logoText,
 		paddingTop: '2.5%',
 		marginBottom: '5%',
 	},
 	textDescription: {
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		fontSize: RF(3),
 		letterSpacing: 0.8,
 		paddingLeft: '9%',
-		color: '#1a1f3e',
+		color: config.color.logoText,
 	},
 	addressField: {
 		marginLeft: '5%',

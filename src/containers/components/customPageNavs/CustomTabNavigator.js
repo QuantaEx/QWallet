@@ -78,13 +78,13 @@ const styles = StyleSheet.create({
   tabText: {
     alignSelf: 'center',
     fontSize: RF(2.8),
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     letterSpacing: 0.6,
   },
   tabTextActive: {
     alignSelf: 'center',
     fontSize: RF(2.8),
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     letterSpacing: 0.6,
     color: '#12c1a2',
   },

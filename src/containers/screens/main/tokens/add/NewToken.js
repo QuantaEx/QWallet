@@ -11,6 +11,7 @@ import { qrScannerInvoker } from '../../../../store/actions/ActionCreator';
 import { addNewToken, setQrInvoker } from '../../../../store/actions/creators/AppConfig';
 import LinearButton from '../../../../components/linearGradient/LinearButton';
 import BoxShadowCard from '../../../../components/shadowCards/BoxShadowCard';
+import config from '../../../../../constants/config';
 
 class NewToken extends Component {
   constructor(props) {
@@ -115,7 +116,7 @@ class NewToken extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   navContainer: {
     flex: 0.65,
@@ -129,7 +130,7 @@ const styles = StyleSheet.create({
   },
   mainContainer: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
     justifyContent: 'center',
     width: '100%',
   },
@@ -146,7 +147,7 @@ const styles = StyleSheet.create({
   warningText: {
     color: 'white',
     fontSize: RF(2.8),
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     letterSpacing: 0.4,
     paddingBottom: '10%',
     paddingLeft: '10%',

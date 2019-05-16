@@ -7,6 +7,7 @@ import { NavigationActions } from 'react-navigation';
 import { connect } from 'react-redux';
 import CoinList from '../../../../components/tokens/CoinList';
 import LinearButton from '../../../../components/linearGradient/LinearButton';
+import config from '../../../../../constants/config';
 
 class Coins extends Component {
   /**
@@ -48,11 +49,11 @@ class Coins extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   mainContainer: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   navBar: {
     flex: 0.75,

@@ -24,6 +24,7 @@ import getNetworkProvider from '../../../../../constants/Providers';
 import MaliciousAddresses from '../../../../../constants/data/json/addresses_darklist.json';
 import executeEtherTransaction from '../../../../../scripts/tokens/transactions/transactionsEther';
 import executeERC20Transaction from '../../../../../scripts/tokens/transactions/transactionsERC20';
+import config from '../../../../../constants/config';
 
 const ethers = require('ethers');
 const img = require('../../../../../assets/icons/barcode2.png');
@@ -263,11 +264,11 @@ class CoinSend extends Component {
 const styles = StyleSheet.create({
 	safeAreaView: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 	},
 	mainContainer: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 		justifyContent: 'center',
 		width: '100%',
 	},

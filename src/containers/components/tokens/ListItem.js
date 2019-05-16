@@ -181,13 +181,13 @@ const styles = StyleSheet.create({
   },
   mainTitleText: {
     fontSize: RF(2.4),
-    fontFamily: 'Cairo-Regular',
+    fontFamily: 'Roboto-Regular',
     letterSpacing: 0.5,
     color: '#061f46',
   },
   subTitleText: {
     fontSize: RF(1.6),
-    fontFamily: 'Cairo-Regular',
+    fontFamily: 'Roboto-Regular',
     color: '#061f46',
     letterSpacing: 0.5,
   },

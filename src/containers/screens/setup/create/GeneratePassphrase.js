@@ -8,6 +8,7 @@ import RF from 'react-native-responsive-fontsize';
 import LinearButton from '../../../components/linearGradient/LinearButton';
 import BackWithMenuNav from '../../../components/customPageNavs/BackWithMenuNav';
 import BoxShadowCard from '../../../components/shadowCards/BoxShadowCard';
+import config from '../../../../constants/config';
 
 class GeneratePassphrase extends Component {
   navigate = () => {
@@ -59,21 +60,21 @@ class GeneratePassphrase extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   mainContainer: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
     width: '100%',
   },
   navContainer: {
     flex: 0.65,
   },
   textHeader: {
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     fontSize: RF(4),
     paddingLeft: '9%',
-    color: '#000000',
+    color: config.color.text,
     flex: 0.65,
   },
   contentContainer: {

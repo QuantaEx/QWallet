@@ -16,6 +16,7 @@ import ContactTabNavigator from '../../../../components/customPageNavs/ContactTa
 import ContactsTab from './ContactsTab';
 import AddContact from './add/AddContact';
 import TabNavigator from '../../../../components/customPageNavs/CustomTabNavigator';
+import config from '../../../../../constants/config';
 
 /**
  * Screen that displays all the contacts that have been added to
@@ -97,7 +98,7 @@ class Contacts extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   rowContainer: {
     marginTop: '3%',
@@ -107,7 +108,7 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     justifyContent: 'flex-start',
     paddingTop: '2.5%',
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   contentContainer: {
     marginTop: 25,
@@ -131,7 +132,7 @@ const styles = StyleSheet.create({
   },
   listItemText: {
     fontSize: RF(2.4),
-    fontFamily: 'Cairo-Regular',
+    fontFamily: 'Roboto-Regular',
     alignItems: 'flex-start',
     flex: 1,
     width: '90%',

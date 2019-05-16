@@ -41,7 +41,7 @@ class LinearButton extends Component {
 }
 
 const gradientColors = {
-    Enabled: ['#04b79f', '#5cfab1'],
+    Enabled: ['#ff7139', '#f44242'],
     Disabled: ['#a2a3a5', '#e5e5e5']
 }
 const styles = StyleSheet.create({
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
         marginLeft: '9%',
     },
     textStyles: {
-        fontFamily: "Cairo-Regular",
+        fontFamily: "Roboto-Light",
         fontSize: RF(2.5),
         color: "#ffffff",
         letterSpacing: 0.4
