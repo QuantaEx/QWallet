@@ -35,7 +35,7 @@ class CreateOrRestore extends Component {
             source={require('../../../assets/images/logo.png')}
             style={{ width: width*0.53, height: width*0.14 }}
           />
-          <Text style={styles.textHeaderDescription}>Wallet for Everyday</Text>
+          <Text style={styles.textHeaderDescription}>Powered By QPay</Text>
           <View style={styles.btnContainer} >
             <View style={styles.btnCreate}>
               <LinearButton
