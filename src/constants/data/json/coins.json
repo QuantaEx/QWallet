@@ -46,7 +46,7 @@
     "ens_address": "",
     "website": "https://qpay.group",
     "logo": {
-      "src": "https://etherscan.io/token/images/qpaytoken2_28.png",
+      "src": "https://qpay.group/qpay.png",
       "width": "18",
       "height": "18",
       "ipfs_hash": ""
@@ -82,7 +82,7 @@
     "ens_address": "ndexnetwork.eth",
     "website": "https://ndexnetwork.com.com",
     "logo": {
-      "src": "https://etherscan.io/token/images/ndx_28.png",
+      "src": "https://ndexnetwork.com/wp-content/uploads/2018/11/nDEX.png",
       "width": "18",
       "height": "18",
       "ipfs_hash": ""
@@ -118,7 +118,7 @@
     "ens_address": "",
     "website": "https://ndexnetwork.com/ndt.html",
     "logo": {
-      "src": "https://etherscan.io/token/images/ndex-ndt_28.png",
+      "src": "https://ndexnetwork.com/wp-content/uploads/2018/11/NDT-COIN.png",
       "width": "18",
       "height": "18",
       "ipfs_hash": ""
@@ -154,7 +154,7 @@
     "ens_address": "",
     "website": "https://www.trusttoken.com/trueusd/",
     "logo": {
-      "src": "https://etherscan.io/token/images/trueusdtoken_28.png",
+      "src": "https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png",
       "width": "18",
       "height": "18",
       "ipfs_hash": ""
