@@ -1,4 +1,4 @@
-![Q-Wallet](https://github.com/QuantaPay/QWallet/blob/master/qwallet.png)
+![Q-Wallet](https://github.com/QuantaPay/QWallet/blob/qpay/qwallet.png)
 
 
 # Q-Wallet | A Wallet for Everyday
