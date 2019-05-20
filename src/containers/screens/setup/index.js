@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import {
-  Text, View, StyleSheet, Dimensions, SafeAreaView,
+  Text, View, StyleSheet, Dimensions, SafeAreaView, Image
 } from 'react-native';
 import { NavigationActions } from 'react-navigation';
 import RF from 'react-native-responsive-fontsize';
 import LinearButton from '../../components/linearGradient/LinearButton';
 import ClearButton from '../../components/linearGradient/ClearButton';
+import config from '../../../constants/config';
+
+const width = Dimensions.get('window').width
 
 class CreateOrRestore extends Component {
   navigateCreate = () => {
@@ -26,19 +29,24 @@ class CreateOrRestore extends Component {
     return (
       <SafeAreaView style={styles.safeAreaView}>
         <View style={styles.mainContainer}>
-          <Text style={styles.textHeader}>WeiPay</Text>
-          <Text style={styles.textHeaderDescription}>ERC20 Token Wallet </Text>
+          {/* <Text style={styles.textHeader}>WeiPay</Text>
+          <Text style={styles.textHeaderDescription}>ERC20 Token Wallet </Text> */}
+          <Image
+            source={require('../../../assets/images/logo.png')}
+            style={{ width: width*0.53, height: width*0.14 }}
+          />
+          <Text style={styles.textHeaderDescription}>Powered By QPay</Text>
           <View style={styles.btnContainer} >
             <View style={styles.btnCreate}>
               <LinearButton
                 onClickFunction={this.navigateCreate}
-                buttonText= 'Create Wallet'
+                buttonText='Create Wallet'
                 customStyles={styles.button}
               />
             </View>
             <ClearButton
               onClickFunction={this.navigateRestore}
-              buttonText= 'Restore Wallet'
+              buttonText='Restore Wallet'
               customStyles={styles.button}
               unlockButton={true}
             />
@@ -52,10 +60,10 @@ class CreateOrRestore extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   mainContainer: {
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
     width: '100%',
     paddingTop: '45%',
     height: '100%',
@@ -63,15 +71,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   textHeader: {
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     fontSize: RF(5.3),
     marginBottom: '-2%',
     letterSpacing: 1.1,
-    color: '#1a1f3e',
+    color: config.color.logoText,
   },
   textHeaderDescription: {
-    color: '#1a1f3e',
-    fontFamily: 'Cairo-Regular',
+    color: config.color.logoText,
+    fontFamily: 'Roboto-Regular',
     fontSize: RF(2.1),
     letterSpacing: 2.5,
   },

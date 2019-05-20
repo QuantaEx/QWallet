@@ -5,6 +5,7 @@ import {
 import { connect } from 'react-redux';
 import Config from 'react-native-config';
 import RF from 'react-native-responsive-fontsize';
+import config from '../../../../../constants/config';
 
 const axios = require('axios');
 const ethers = require('ethers');
@@ -142,11 +143,11 @@ class CoinActivity extends Component {
 const styles = StyleSheet.create({
 	safeAreaView: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 	},
 	mainContainer: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 		width: '100%',
 	},
 	listContainer: {
@@ -159,7 +160,7 @@ const styles = StyleSheet.create({
 		marginLeft: '10%',
 	},
 	addressTitle: {
-		fontFamily: 'Cairo-Regular',
+		fontFamily: 'Roboto-Regular',
 		color: 'black',
 		fontSize: RF(2.1),
 		lineHeight: RF(3),
@@ -168,7 +169,7 @@ const styles = StyleSheet.create({
 	flatListStyle: {
 		flex: 1,
 		width: '100%',
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 	},
 	itemStyle: {
 		paddingBottom: '5%',
@@ -196,7 +197,7 @@ const styles = StyleSheet.create({
 	type: {
 		fontSize: RF(2.4),
 		letterSpacing: 0.5,
-		fontFamily: 'Cairo-Regular',
+		fontFamily: 'Roboto-Regular',
 		alignItems: 'flex-start',
 		flex: 1,
 		width: '60%',
@@ -205,7 +206,7 @@ const styles = StyleSheet.create({
 	date: {
 		fontSize: RF(1.7),
 		letterSpacing: 0.4,
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		top: '1.75%',
 		color: '#141f25',
 	},
@@ -229,7 +230,7 @@ const styles = StyleSheet.create({
 	},
 	addressValue: {
 		fontSize: RF(2.1),
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		color: 'black',
 		justifyContent: 'center',
 		lineHeight: RF(3),
@@ -240,7 +241,7 @@ const styles = StyleSheet.create({
 		flexWrap: 'wrap',
 	},
 	amountTitle: {
-		fontFamily: 'Cairo-Regular',
+		fontFamily: 'Roboto-Regular',
 		color: 'black',
 		fontSize: RF(2.1),
 		lineHeight: RF(2.6),
@@ -248,7 +249,7 @@ const styles = StyleSheet.create({
 	},
 	amountValue: {
 		fontSize: RF(2.1),
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		color: 'black',
 		justifyContent: 'center',
 		lineHeight: RF(2.6),

@@ -10,9 +10,9 @@
     "ens_address": "",
     "website": "",
     "logo": {
-      "src": "https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_bigger.png",
-      "width": "",
-      "height": "",
+      "src": "https://etherscan.io/images/ethereum-icon.png",
+      "width": "18",
+      "height": "18",
       "ipfs_hash": ""
     },
     "support": {
@@ -46,9 +46,9 @@
     "ens_address": "",
     "website": "https://qpay.group",
     "logo": {
-      "src": "https://etherscan.io/token/images/qpaytoken2_28.png",
-      "width": "",
-      "height": "",
+      "src": "https://qpay.group/qpay.png",
+      "width": "18",
+      "height": "18",
       "ipfs_hash": ""
     },
     "support": {
@@ -82,9 +82,9 @@
     "ens_address": "ndexnetwork.eth",
     "website": "https://ndexnetwork.com.com",
     "logo": {
-      "src": "https://etherscan.io/token/images/ndx_28.png",
-      "width": "",
-      "height": "",
+      "src": "https://ndexnetwork.com/wp-content/uploads/2018/11/nDEX.png",
+      "width": "18",
+      "height": "18",
       "ipfs_hash": ""
     },
     "support": {
@@ -118,9 +118,9 @@
     "ens_address": "",
     "website": "https://ndexnetwork.com/ndt.html",
     "logo": {
-      "src": "https://etherscan.io/token/images/ndex-ndt_28.png",
-      "width": "",
-      "height": "",
+      "src": "https://ndexnetwork.com/wp-content/uploads/2018/11/NDT-COIN.png",
+      "width": "18",
+      "height": "18",
       "ipfs_hash": ""
     },
      "support": {
@@ -143,43 +143,7 @@
       "youtube": "https://youtube.com/channel/UCDcZiqk1qiCKfKRTUis7YTw"
     }
   },
-  {
-    "id": 4,
-    "type": "ERC20",
-    "selected": true,
-    "symbol": "ANT",
-    "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
-    "decimals": 18,
-    "name": "ANT",
-    "ens_address": "",
-    "website": "https://aragon.one/network",
-    "logo": {
-      "src": "https://etherscan.io/token/images/aragon_28.png",
-      "width": "",
-      "height": "",
-      "ipfs_hash": ""
-    },
-    "support": {
-      "email": "",
-      "url": ""
-    },
-    "social": {
-      "blog": "",
-      "chat": "",
-      "facebook": "",
-      "forum": "",
-      "github": "",
-      "gitter": "",
-      "instagram": "",
-      "linkedin": "",
-      "reddit": "",
-      "slack": "",
-      "telegram": "",
-      "twitter": "",
-      "youtube": ""
-    }
-  },
-  {
+   {
     "id": 5,
     "type": "ERC20",
     "selected": true,
@@ -190,9 +154,9 @@
     "ens_address": "",
     "website": "https://www.trusttoken.com/trueusd/",
     "logo": {
-      "src": "https://etherscan.io/token/images/trueusdtoken_28.png",
-      "width": "",
-      "height": "",
+      "src": "https://s2.coinmarketcap.com/static/img/coins/64x64/2563.png",
+      "width": "18",
+      "height": "18",
       "ipfs_hash": ""
     },
     "support": {

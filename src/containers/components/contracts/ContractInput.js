@@ -22,7 +22,7 @@ class ContractInput extends Component {
 							return this.props.processContractInput(text, inputName, inputType, funcName);
 						}}
 					inputStyle={styles.functionInputStyle}
-					selectionColor={'#12b1a2'}
+					selectionColor={'#12c1a2'}
 				/>
 			</ View>
 		);
@@ -31,11 +31,11 @@ class ContractInput extends Component {
 
 const styles = StyleSheet.create({
 	text: {
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		fontSize: RF(2.2),
 		letterSpacing: 0.8,
 		paddingLeft: '5%',
-		color: '#1c1f3e',
+		color: '#1a1f3e',
 	},
 	functionInputStyle: {
 		height: Dimensions.get('window').height * 0.05,

@@ -72,13 +72,13 @@ const styles = StyleSheet.create({
     headerContact :{
         alignSelf:'flex-start',
         fontSize: RF(2.8),
-        fontFamily: "Cairo-Light",
+        fontFamily: "Roboto-Light",
         letterSpacing: 0.6,
     },
     headerAddContact: {
         alignSelf:'flex-end',
         fontSize: RF(2.8),
-        fontFamily: "Cairo-Light",
+        fontFamily: "Roboto-Light",
         letterSpacing: 0.6,
     },
     headerButtonOne: {

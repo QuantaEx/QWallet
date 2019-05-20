@@ -9,6 +9,7 @@ import { initializeAppTokenState, enterDebug } from '../../../store/actions/crea
 import { Terms } from '../../../../constants/data/Terms';
 import LinearButton from '../../../components/linearGradient/LinearButton';
 import TokenConfig from '../../../../scripts/tokens/tokenConfig';
+import config from '../../../../constants/config';
 
 class TermsAndConditions extends Component {
   componentDidMount() {
@@ -51,11 +52,11 @@ class TermsAndConditions extends Component {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
   },
   mainContainer: {
     flex: 1,
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
     width: '100%',
     height: '100%',
   },
@@ -64,11 +65,11 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
   },
   textHeader: {
-    fontFamily: 'Cairo-Light',
+    fontFamily: 'Roboto-Light',
     fontSize: RF(4),
     paddingLeft: '9%',
     letterSpacing: 0.8,
-    color: '#000000',
+    color: config.color.text,
     fontWeight: '200',
   },
   scrollViewContainer: {
@@ -85,7 +86,7 @@ const styles = StyleSheet.create({
     paddingLeft: '10%',
     paddingRight: '10%',
     lineHeight: RF(2.5),
-    color: 'black',
+    color: config.color.text,
     fontWeight: '300',
   },
   btnContainer: {

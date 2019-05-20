@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
   displayText: {
     fontSize: RF(4),
     color: '#000000',
-    fontFamily: 'Cairo-Regular',
+    fontFamily: 'Roboto-Regular',
   },
   btnContainer: {
     flex: 1,

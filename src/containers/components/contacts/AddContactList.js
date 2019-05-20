@@ -46,7 +46,7 @@ class AddContactList extends Component {
    */
   listItem(token) {
     return (
-      <ListItem title='Please Enter Contract Address' textInput={true} />
+      <ListItem title='Enter Address' textInput={true} />
     )
   }
 
@@ -64,7 +64,7 @@ class AddContactList extends Component {
     this.props.qrScannerInvoker("addContact")
     this.props.saveAddContactInputs(data)
 
-    this.props.navigate("QRCodeScanner", data)
+    this.props.navigate("QCodeScanner", data)
   }
 
   /**
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
   qrButton: {
     width: 50,
     height: 50,
-    backgroundColor: "orange"
+    backgroundColor: "yellow"
   },
   addressInput: {
     width: 150,

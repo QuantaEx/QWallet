@@ -11,6 +11,7 @@ import BoxShadowCard from '../../../../components/shadowCards/BoxShadowCard';
 import LinearButton from '../../../../components/linearGradient/LinearButton';
 import ClearButton from '../../../../components/linearGradient/ClearButton';
 import EditContact from './add/EditContact';
+import config from '../../../../../constants/config';
 
 
 class ContactAddresses extends Component {
@@ -140,7 +141,7 @@ const styles = StyleSheet.create({
   mainContainer: {
     flex: 0.95,
     alignItems: 'center',
-    backgroundColor: '#151928',
+    backgroundColor: config.color.background,
   },
   scrollViewContainer: {
     marginTop: '5%',
@@ -152,7 +153,7 @@ const styles = StyleSheet.create({
   },
   contactName: {
     fontSize: RF(2.8),
-    fontFamily: 'Roboto',
+    fontFamily: 'Roboto-Regular',
     letterSpacing: 0.6,
     paddingLeft: '1%',
   },
@@ -192,14 +193,14 @@ const styles = StyleSheet.create({
   CoinTypeText: {
     fontSize: RF(2.4),
     letterSpacing: 0.5,
-    fontFamily: 'Roboto',
+    fontFamily: 'Roboto-Regular',
     marginBottom: 0,
     paddingBottom: 0,
   },
   textAddressText: {
     fontSize: RF(1.7),
     letterSpacing: 0.4,
-    fontFamily: 'Roboto',
+    fontFamily: 'Roboto-Light',
     flexWrap: 'wrap',
   },
   btnContainer: {

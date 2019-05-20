@@ -9,6 +9,7 @@ import { NavigationActions } from 'react-navigation';
 import RF from 'react-native-responsive-fontsize';
 import * as actions from '../../../store/actions/ActionCreator';
 import * as configActions from '../../../store/actions/creators/AppConfig';
+import config from '../../../../constants/config';
 
 /**
  * React Component
@@ -88,7 +89,7 @@ class QrCodeScanner extends Component {
                   <Text style={styles.msgText}>Will Navigate back to the original screen when QR is scanned.</Text>
                   <View style={styles.footerGrandparentContainer}>
                       <View style={styles.footerParentContainer} >
-                          <Text style={styles.textFooter} >Powered by ChainSafe </Text>
+                          <Text style={styles.textFooter} >Powered By QPay </Text>
                       </View>
                   </View>
                 </View>
@@ -151,7 +152,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   msgText: {
-    backgroundColor: '#f4f7f9',
+    backgroundColor: config.color.background,
     borderRadius: 5,
     color: 'black',
     padding: '2%',

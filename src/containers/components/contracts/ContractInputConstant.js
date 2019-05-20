@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 		flex: 2,
 	},
 	text: {
-		fontFamily: 'Roboto',
+		fontFamily: 'Roboto-Light',
 		fontSize: RF(2.2),
 		letterSpacing: 0.8,
 		color: '#1a1f3e',

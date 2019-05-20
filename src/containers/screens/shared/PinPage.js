@@ -13,6 +13,7 @@ import LinearButton from '../../components/linearGradient/LinearButton';
 import BoxShadowCard from '../../components/shadowCards/BoxShadowCard';
 import BackWithMenuNav from '../../components/customPageNavs/BackWithMenuNav';
 import Toast from 'react-native-simple-toast';
+import config from '../../../constants/config';
 
 class PinPage extends Component {
 	constructor(props) {
@@ -257,7 +258,7 @@ class PinPage extends Component {
 						<View style={styles.btnContainer}>
 							<View style={styles.footerGrandparentContainer} >
 								<View style={styles.footerParentContainer} >
-									<Text style={styles.textFooter} >Powered by ChainSafe </Text>
+									<Text style={styles.textFooter} >Powered By QPay </Text>
 								</View>
 							</View>
 						</View>
@@ -271,12 +272,12 @@ class PinPage extends Component {
 const styles = StyleSheet.create({
 	safeAreaView: {
 		flex: 1,
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 	},
 	mainContainer: {
 		flex: 1,
 		justifyContent: 'center',
-		backgroundColor: '#f4f7f9',
+		backgroundColor: config.color.background,
 		width: '100%',
 	},
 	navContainer: {
@@ -286,12 +287,13 @@ const styles = StyleSheet.create({
 		flex: 5.65,
 	},
 	textHeader: {
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		paddingBottom: '5%',
 		fontSize: RF(4),
 		letterSpacing: 0.8,
 		paddingLeft: '9%',
-		color: '#1a1f3e',
+		color: config.color.text,
+		// color: '#1a1f3e',
 		flex: 0.11,
 	},
 	boxShadowContainer: {
@@ -313,7 +315,7 @@ const styles = StyleSheet.create({
 		paddingTop: '10%',
 		paddingLeft: '10%',
 		paddingRight: '10%',
-		fontFamily: 'Cairo-Light',
+		fontFamily: 'Roboto-Light',
 		letterSpacing: 0.4,
 		fontSize: RF(2.4),
 		color: '#000000',
